@@ -68,10 +68,19 @@ padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     gap: 15px;
     }
-    .menu__list :hover{
-        color: aqua;
+
+    .menu__list__item{
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    .menu__list__item :hover{
+        color: rgb(17, 92, 198);
+    
+        
     }
  .menu__list__item__contato{
     display: none;
